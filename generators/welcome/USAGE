@@ -1,0 +1,9 @@
+Description:
+    Stubs out a new controller and two views: index and about.
+    Pass the controller name, either CamelCased or under_scored.
+
+    This generates a controller class in app/controllers, view templates in
+    app/views/controller_name, no helpers, no tests, sorry for that.
+
+Example:
+    `./script/generate welcome Welcome`
