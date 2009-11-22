@@ -17,7 +17,7 @@ class WelcomeGenerator < Rails::Generator::NamedBase
       m.file 'views/layouts/main.html.erb',
         "app/views/layouts/#{file_name}.html.erb"
       m.file 'public/stylesheets/main.css',
-        "public/stylesheets/#{file_name}.html.erb"
+        "public/stylesheets/main.css"
 
       m.root_route :controller => file_name
 
